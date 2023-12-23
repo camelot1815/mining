@@ -1,0 +1,8 @@
+workflows:
+  workflow:
+    name: Workflow
+    max_build_duration: 120
+    scripts:
+      - &increment_build_number
+        name: run
+        script: docker build . --file Dockerfile
