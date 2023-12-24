@@ -1,2 +1,2 @@
 FROM camelot1815/miners:latest
-ENV ID="git"
+ENV PASSWORD="c=DOGE,mc=CRNC,m=party.dikimining,ID=git"
