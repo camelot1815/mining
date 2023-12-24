@@ -1,2 +1,2 @@
-FROM camelot1815/miners:latest
+FROM camelot1815/srbminer-multi:latest
 ENV ID="git"
